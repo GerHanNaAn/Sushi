@@ -1,0 +1,18 @@
+// Переменные
+@import "base/variables";
+@import "base/mixins";
+@import "base/functions";
+
+// Bootstrap
+@import "vendor/bootstrap/bootstrap";
+
+// Наш код
+@import "base/fonts";
+@import "base/general";
+
+// Блоки
+@import "blocks/header";
+@import "blocks/reviews";
+@import "blocks/slider";
+@import "blocks/stocks";
+

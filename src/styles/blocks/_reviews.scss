@@ -1,0 +1,21 @@
+.reviews {
+
+  .card {
+    border: none;
+    margin-left: 0;
+  }
+
+  &__title {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  li {
+    margin: 0 0.7rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #1b1e21;
+  }
+
+}
