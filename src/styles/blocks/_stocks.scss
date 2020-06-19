@@ -1,4 +1,68 @@
 .stocks {
+  background-color: #FF4F4F;
 
+  h1 {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .card-img-overlay {
+    padding-right: 5px;
+  }
+
+  .details {
+    width: 121px;
+    height: 24px;
+    margin: 0;
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      text-align: center;
+      color: #FFFFFF;
+      display: inline-block;
+    }
+
+    div {
+      width: 24px;
+      height: 24px;
+      background: #FF1744;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    img {
+      width: 12px;
+      margin: 0 0 0 5px;
+    }
+
+  }
+
+  .card-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-bottom: 7px;
+  }
+
+  .stocksButton {
+    margin: 0 auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    width: 152px;
+    height: 34px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  .allStocks {
+    margin-top: 40px;
+    margin-bottom: 110px;
+  }
 
 }

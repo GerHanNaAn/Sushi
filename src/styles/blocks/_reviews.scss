@@ -1,13 +1,28 @@
 .reviews {
 
-  .card {
-    border: none;
-    margin-left: 0;
+  .reviews__title {
+    margin: 25px;
   }
 
-  &__title {
-    padding: 1rem 0;
-    text-align: center;
+  .card-text {
+    color: #4F86A2;
+    font-weight: 600;
+  }
+
+  .card {
+    border: none;
+    margin: 0;
+  }
+
+  .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
   }
 
   li {
