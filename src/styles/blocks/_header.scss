@@ -1,0 +1,108 @@
+.header {
+
+  .navbar {
+    padding: 4.5px 1px;
+    border-bottom: rgba(34, 34, 34, 0.125) 1px solid;
+  }
+
+  .container {
+    max-width: 1920px;
+    padding: 0;
+  }
+
+  .navbar-brand {
+    margin-left: 92px;
+  }
+
+  .navbar-collapse {
+    .nav-link {
+      font-weight: bold;
+      font-size: 20px;
+      color: black;
+    }
+
+    .dropdown-item {
+      font-size: 14px;
+      color: black;
+      //////////////////Ты остановился тут. Доделай меню.
+      // /////////////Отступы между элементами меню сделай через медиа-запросы для разрешения 1920px
+    }
+  }
+
+
+  .contacts {
+    margin-right: 42px;
+
+    &__number {
+      font-weight: bold;
+      font-size: 16px;
+      color: #222222;
+    }
+
+    &__time {
+      font-weight: bold;
+      font-size: 16px;
+      color: #9C9C9C;
+      margin-bottom: -7px;
+    }
+  }
+
+  .purchases {
+    height: 50px;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-right: 101px;
+    padding-left: 38px;
+    display: inline-block;
+    color: #222222;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+
+    &__quantity {
+      color: white;
+      height: 58px;
+      width: 58px;
+      background: #FF1744;
+      text-align: center;
+      line-height: 58px;
+      border-radius: 50%;
+      display: inline-block;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: -5px;
+      position: relative;
+      left: 13px;
+    }
+  }
+
+  //@media
+  @media (max-width: 1694px) and (min-width: 1371px) {
+    .nav-item{
+      margin-right: 64px;
+    }
+  }
+
+  @media (max-width: 1940px) and (min-width: 1695px) {
+
+    .navbar-brand {
+      margin-right: 0;
+    }
+
+    .navbar-nav {
+      margin-left: 339px !important;
+    }
+
+    .nav-item{
+      margin-right: 64px;
+    }
+  }
+  //@media (max-width: 1921px) {
+  //  .container {
+  //    max-width: 1920px;
+  //  }
+  //}
+
+}

@@ -1,7 +1,110 @@
 .slider {
-    @media (min-width: 1920px) {
-        .sliderMedia {
-            max-width: 1920px;
-        }
+
+  //.carousel-item {
+  //  &__img-pizza {
+  //    position: relative;
+  //    top: 400px;
+  //    right: 500px;
+  //  }
+  //
+  //  &__img-nachos {
+  //    position: relative;
+  //    top: 400px;
+  //    right: 500px;
+  //  }
+  //
+  //  &__img-arrow {
+  //    position: relative;
+  //    top: 400px;
+  //    right: 500px;
+  //  }
+  //
+  //  &__img-tsutsumi {
+  //    position: relative;
+  //    top: 400px;
+  //    right: 500px;
+  //  }
+  //
+  //  &__img-tsutsumi {
+  //    position: relative;
+  //    top: 400px;
+  //    right: 500px;
+  //  }
+  //
+  //  &__text {
+  //    position: relative;
+  //    top: 400px;
+  //    right: 500px;
+  //    color: #FF1744;
+  //    opacity: 0.4;
+  //    font-weight: bold;
+  //    font-size: 121.667px;
+  //  }
+  //
+  //  &__sushi-plate {
+  //    position: absolute;
+  //    top: 100px;
+  //    right: 100px;
+  //    width: 200px;
+  //  }
+  //
+  //  &__sticks {
+  //    position: absolute;
+  //    top: 100px;
+  //    right: 100px;
+  //    width: 200px;
+  //  }
+  //
+  //}
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 60px;
+    height: 34px;
+    background: #FF1744;
+    border-radius: 5px;
+    margin: auto 96px;
+  }
+
+  .carousel-indicators {
+    .active {
+      background-color: #FF1744;
     }
+
+    margin-bottom: 40px;
+  }
+
+  .carousel-indicators_dots {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  h5 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    margin-bottom: 70px;
+  }
+
+  .slider__link {
+    display: inline-block;
+    width: 200px;
+    height: 52px;
+    background: #FF1744;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 52px;
+    color: #FFFFFF;
+    margin-bottom: 110px;
+  }
+
+  //@media////////////////
+
+  @media (min-width: 1920px) {
+    .sliderMedia {
+      max-width: 1920px;
+    }
+  }
 }

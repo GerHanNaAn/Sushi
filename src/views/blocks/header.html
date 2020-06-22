@@ -1,41 +1,55 @@
-<header>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<section class="header" id="header">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-xl navbar-white bg-white">
+            <div class="container">
+
+                <a class="navbar-brand" href="#"><img src="../../img/logoHead.svg" alt=""></a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Меню
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Запеченные роллы</a>
+                                <a class="dropdown-item" href="#">Роллы</a>
+                                <a class="dropdown-item" href="#">Темпура</a>
+                                <a class="dropdown-item" href="#">Сеты</a>
+                                <a class="dropdown-item" href="#">Пицца</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Акции</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Доставка</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Отзывы</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contacts">
+                    <p class="contacts__number">8 (351) 238-22-00
+                        <br>
+                    <p class="contacts__time">с 11:00 до 23:00</p>
+                </div>
+
+                <a href="#" class="purchases">500.00 р.
+                    <div class="purchases__quantity">2</div>
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span style="color: red" class="navbar-toggler-icon bg-dark"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Меню <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Акции
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Доставка</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Отзывы</a>
-                    </li>
-                </ul>
-
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
-    </div>
-</header>
+    </header>
+</section>
