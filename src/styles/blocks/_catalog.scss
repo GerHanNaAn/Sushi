@@ -1,15 +1,23 @@
 .catalog {
 
-  //.card__basket {
-  //  fill: red;
-  //}
-
-  .basket{
-    fill: red;
+  .buy-container__svg-icon {
+    fill: #FFFFFF;
+    width: 30px;
+    height: 40px;
   }
 
-  svg{
-    fill: red;
+  .buy-container__plus {
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+
+  .buy-container__button {
+    background: #FF1744;
+    border: none;
+    border-radius: 10px;
+    width: 85px;
+    height: 40px;
+    padding: 0;
   }
 
 }
