@@ -71,10 +71,25 @@
     border-radius: 10px;
     width: 152px;
     height: 34px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    color: #FFFFFF;
+
+    .stocksButton__arrow {
+      display: inline-block;
+      position: relative;
+      left: 6px;
+      bottom: 3px;
+    }
+
+    .stocksButton__text {
+      display: inline-block;
+      position: relative;
+      right: 7px;
+      bottom: 2px;
+      margin: 0;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
   }
 
   .allStocks {

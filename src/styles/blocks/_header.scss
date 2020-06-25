@@ -21,14 +21,51 @@
       color: black;
     }
 
-    .dropdown-item {
-      font-size: 14px;
-      color: black;
-      //////////////////Ты остановился тут. Доделай меню.
-      // /////////////Отступы между элементами меню сделай через медиа-запросы для разрешения 1920px
-    }
-  }
+    .dropdown-menu {
+      width: 182px;
+      height: 285px;
+      padding-top: 4px;
+      padding-bottom: 12px;
+      border: 0;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.13);
+      border-radius: 6px;
 
+      .dropdown-item {
+        padding: 0 20px;
+
+        &:hover {
+          background: #FF1744;
+        }
+
+        .dropdown-item__text {
+
+          &:hover {
+            color: #FFFFFF;
+            border-bottom: 0.6px solid transparent;
+          }
+
+          margin: 0;
+          padding-bottom: 7px;
+          padding-top: 15px;
+          font-size: 14px;
+          color: black;
+          border-bottom: 0.6px solid #E1E1E1;
+          //////////////////Ты остановился тут. Доделай меню.
+          // /////////////Отступы между элементами меню сделай через медиа-запросы для разрешения 1920px
+
+          &_bold {
+            font-weight: bold;
+          }
+
+          &_unbordered {
+            border-bottom: 0.6px solid transparent;
+          }
+        }
+
+      }
+    }
+
+  }
 
   .contacts {
     margin-right: 42px;
@@ -80,7 +117,7 @@
 
   //@media
   @media (max-width: 1694px) and (min-width: 1371px) {
-    .nav-item{
+    .nav-item {
       margin-right: 64px;
     }
   }
@@ -95,7 +132,7 @@
       margin-left: 339px !important;
     }
 
-    .nav-item{
+    .nav-item {
       margin-right: 64px;
     }
   }

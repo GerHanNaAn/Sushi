@@ -1,11 +1,13 @@
 <section class="catalog" style="margin-bottom: 250px">
-
     <div class="container" id="catalog">
-
-        <h1 class="text-center">Популярно</h1>
-
-        <div class="row ">
-            <div class="card-deck  mb-3">
+        <div>
+            <a href="#callback">
+                <img class="chat" src="../../img/message.svg" alt="message">
+            </a>
+        </div>
+        <h1 class="text-center catalog__title">Популярное</h1>
+        <div class="row d-flex">
+            <div class="card-box col-6 col-lg-4">
                 <div class="card">
                     <img src="../../img/catalog.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -14,93 +16,461 @@
                         <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
                             Роллы обжаренные во фритюре</small></p>
                         <div class="buy-container">
-                            <button class="buy-container__button" type="submit">
-                                <svg class="buy-container__svg-icon">
-                                    <use xlink:href="#basket"></use>
+                            <button class="buy-button" type="submit">
+                                <svg class="buy-button__svg-icon">
+                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>
                                 </svg>
-                                <span class="buy-container__plus">+</span>
+                                <span class="buy-button__text">+</span>
                             </button>
-                            <p>500</p>
+                            <p class="buy-container__price">320.00 р.</p>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="card-box col-6 col-lg-4">
                 <div class="card">
-                    <img src="../../img//catalog.png" class="card-img-top" alt="...">
+                    <img src="../../img/catalog.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Филадельфия Антинори</h5>
                         <p class="card-text">300 гр / 9 шт.</p>
                         <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
                             Роллы обжаренные во фритюре</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../../img//catalog.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Филадельфия Антинори</h5>
-                        <p class="card-text">300 гр / 9 шт.</p>
-                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
-                            Роллы обжаренные во фритюре</small></p>
+                        <div class="buy-container">
+                            <button class="buy-button" type="submit">
+                                <svg class="buy-button__svg-icon">
+                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>
+                                </svg>
+                                <span class="buy-button__text">+</span>
+                            </button>
+                            <p class="buy-container__price">320.00 р.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="card-deck mb-3">
+            <div class="card-box col-6 col-lg-4">
                 <div class="card">
-                    <img src="../../img//catalog.png" class="card-img-top" alt="...">
+                    <img src="../../img/catalog.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Филадельфия Антинори</h5>
                         <p class="card-text">300 гр / 9 шт.</p>
                         <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
                             Роллы обжаренные во фритюре</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../../img//catalog.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Филадельфия Антинори</h5>
-                        <p class="card-text">300 гр / 9 шт.</p>
-                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
-                            Роллы обжаренные во фритюре</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../../img//catalog.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Филадельфия Антинори</h5>
-                        <p class="card-text">300 гр / 9 шт.</p>
-                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
-                            Роллы обжаренные во фритюре</small></p>
+                        <div class="buy-container">
+                            <button class="buy-button" type="submit">
+                                <svg class="buy-button__svg-icon">
+                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>
+                                </svg>
+                                <span class="buy-button__text">+</span>
+                            </button>
+                            <p class="buy-container__price">320.00 р.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="card-deck mb-3">
+            <div class="card-box col-6 col-lg-4">
                 <div class="card">
-                    <img src="../../img//catalog.png" class="card-img-top" alt="...">
+                    <img src="../../img/catalog.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Филадельфия Антинори</h5>
                         <p class="card-text">300 гр / 9 шт.</p>
                         <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
                             Роллы обжаренные во фритюре</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../../img//catalog.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Филадельфия Антинори</h5>
-                        <p class="card-text">300 гр / 9 шт.</p>
-                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
-                            Роллы обжаренные во фритюре</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../../img//catalog.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Филадельфия Антинори</h5>
-                        <p class="card-text">300 гр / 9 шт.</p>
-                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
-                            Роллы обжаренные во фритюре</small></p>
+                        <div class="buy-container">
+                            <button class="buy-button" type="submit">
+                                <svg class="buy-button__svg-icon">
+                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>
+                                </svg>
+                                <span class="buy-button__text">+</span>
+                            </button>
+                            <p class="buy-container__price">320.00 р.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="card-box col-6 col-lg-4">
+                <div class="card">
+                    <img src="../../img/catalog.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Филадельфия Антинори</h5>
+                        <p class="card-text">300 гр / 9 шт.</p>
+                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
+                            Роллы обжаренные во фритюре</small></p>
+                        <div class="buy-container">
+                            <button class="buy-button" type="submit">
+                                <svg class="buy-button__svg-icon">
+                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>
+                                </svg>
+                                <span class="buy-button__text">+</span>
+                            </button>
+                            <p class="buy-container__price">320.00 р.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box col-6 col-lg-4">
+                <div class="card">
+                    <img src="../../img/catalog.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Филадельфия Антинори</h5>
+                        <p class="card-text">300 гр / 9 шт.</p>
+                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
+                            Роллы обжаренные во фритюре</small></p>
+                        <div class="buy-container">
+                            <button class="buy-button" type="submit">
+                                <svg class="buy-button__svg-icon">
+                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>
+                                </svg>
+                                <span class="buy-button__text">+</span>
+                            </button>
+                            <p class="buy-container__price">320.00 р.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box col-6 col-lg-4">
+                <div class="card">
+                    <img src="../../img/catalog.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Филадельфия Антинори</h5>
+                        <p class="card-text">300 гр / 9 шт.</p>
+                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
+                            Роллы обжаренные во фритюре</small></p>
+                        <div class="buy-container">
+                            <button class="buy-button" type="submit">
+                                <svg class="buy-button__svg-icon">
+                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>
+                                </svg>
+                                <span class="buy-button__text">+</span>
+                            </button>
+                            <p class="buy-container__price">320.00 р.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box col-6 col-lg-4">
+                <div class="card">
+                    <img src="../../img/catalog.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Филадельфия Антинори</h5>
+                        <p class="card-text">300 гр / 9 шт.</p>
+                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
+                            Роллы обжаренные во фритюре</small></p>
+                        <div class="buy-container">
+                            <button class="buy-button" type="submit">
+                                <svg class="buy-button__svg-icon">
+                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>
+                                </svg>
+                                <span class="buy-button__text">+</span>
+                            </button>
+                            <p class="buy-container__price">320.00 р.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box col-6 col-lg-4">
+                <div class="card">
+                    <img src="../../img/catalog.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Филадельфия Антинори</h5>
+                        <p class="card-text">300 гр / 9 шт.</p>
+                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
+                            Роллы обжаренные во фритюре</small></p>
+                        <div class="buy-container">
+                            <button class="buy-button" type="submit">
+                                <svg class="buy-button__svg-icon">
+                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>
+                                </svg>
+                                <span class="buy-button__text">+</span>
+                            </button>
+                            <p class="buy-container__price">320.00 р.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box col-6 col-lg-4">
+                <div class="card">
+                    <img src="../../img/catalog.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Филадельфия Антинори</h5>
+                        <p class="card-text">300 гр / 9 шт.</p>
+                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
+                            Роллы обжаренные во фритюре</small></p>
+                        <div class="buy-container">
+                            <button class="buy-button" type="submit">
+                                <svg class="buy-button__svg-icon">
+                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>
+                                </svg>
+                                <span class="buy-button__text">+</span>
+                            </button>
+                            <p class="buy-container__price">320.00 р.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box col-6 col-lg-4">
+                <div class="card">
+                    <img src="../../img/catalog.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Филадельфия Антинори</h5>
+                        <p class="card-text">300 гр / 9 шт.</p>
+                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
+                            Роллы обжаренные во фритюре</small></p>
+                        <div class="buy-container">
+                            <button class="buy-button" type="submit">
+                                <svg class="buy-button__svg-icon">
+                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>
+                                </svg>
+                                <span class="buy-button__text">+</span>
+                            </button>
+                            <p class="buy-container__price">320.00 р.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box col-6 col-lg-4">
+                <div class="card">
+                    <img src="../../img/catalog.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Филадельфия Антинори</h5>
+                        <p class="card-text">300 гр / 9 шт.</p>
+                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,
+                            Роллы обжаренные во фритюре</small></p>
+                        <div class="buy-container">
+                            <button class="buy-button" type="submit">
+                                <svg class="buy-button__svg-icon">
+                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>
+                                </svg>
+                                <span class="buy-button__text">+</span>
+                            </button>
+                            <p class="buy-container__price">320.00 р.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--            <div class="col-6 col-lg-4">-->
+<!--                <div class="card">-->
+<!--                    <img src="../../img/catalog.png" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Филадельфия Антинори</h5>-->
+<!--                        <p class="card-text">300 гр / 9 шт.</p>-->
+<!--                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,-->
+<!--                            Роллы обжаренные во фритюре</small></p>-->
+<!--                        <div class="buy-container">-->
+<!--                            <button class="buy-button" type="submit">-->
+<!--                                <svg class="buy-button__svg-icon">-->
+<!--                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>-->
+<!--                                </svg>-->
+<!--                                <span class="buy-button__text">+</span>-->
+<!--                            </button>-->
+<!--                            <p class="buy-container__price">320.00 р.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <img src="../../img/catalog.png" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Филадельфия Антинори</h5>-->
+<!--                        <p class="card-text">300 гр / 9 шт.</p>-->
+<!--                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,-->
+<!--                            Роллы обжаренные во фритюре</small></p>-->
+<!--                        <div class="buy-container">-->
+<!--                            <button class="buy-button" type="submit">-->
+<!--                                <svg class="buy-button__svg-icon">-->
+<!--                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>-->
+<!--                                </svg>-->
+<!--                                <span class="buy-button__text">+</span>-->
+<!--                            </button>-->
+<!--                            <p class="buy-container__price">320.00 р.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <img src="../../img/catalog.png" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Филадельфия Антинори</h5>-->
+<!--                        <p class="card-text">300 гр / 9 шт.</p>-->
+<!--                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,-->
+<!--                            Роллы обжаренные во фритюре</small></p>-->
+<!--                        <div class="buy-container">-->
+<!--                            <button class="buy-button" type="submit">-->
+<!--                                <svg class="buy-button__svg-icon">-->
+<!--                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>-->
+<!--                                </svg>-->
+<!--                                <span class="buy-button__text">+</span>-->
+<!--                            </button>-->
+<!--                            <p class="buy-container__price">320.00 р.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-6 col-lg-4">-->
+<!--                <div class="card">-->
+<!--                    <img src="../../img/catalog.png" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Филадельфия Антинори</h5>-->
+<!--                        <p class="card-text">300 гр / 9 шт.</p>-->
+<!--                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,-->
+<!--                            Роллы обжаренные во фритюре</small></p>-->
+<!--                        <div class="buy-container">-->
+<!--                            <button class="buy-button" type="submit">-->
+<!--                                <svg class="buy-button__svg-icon">-->
+<!--                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>-->
+<!--                                </svg>-->
+<!--                                <span class="buy-button__text">+</span>-->
+<!--                            </button>-->
+<!--                            <p class="buy-container__price">320.00 р.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <img src="../../img/catalog.png" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Филадельфия Антинори</h5>-->
+<!--                        <p class="card-text">300 гр / 9 шт.</p>-->
+<!--                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,-->
+<!--                            Роллы обжаренные во фритюре</small></p>-->
+<!--                        <div class="buy-container">-->
+<!--                            <button class="buy-button" type="submit">-->
+<!--                                <svg class="buy-button__svg-icon">-->
+<!--                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>-->
+<!--                                </svg>-->
+<!--                                <span class="buy-button__text">+</span>-->
+<!--                            </button>-->
+<!--                            <p class="buy-container__price">320.00 р.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <img src="../../img/catalog.png" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Филадельфия Антинори</h5>-->
+<!--                        <p class="card-text">300 гр / 9 шт.</p>-->
+<!--                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,-->
+<!--                            Роллы обжаренные во фритюре</small></p>-->
+<!--                        <div class="buy-container">-->
+<!--                            <button class="buy-button" type="submit">-->
+<!--                                <svg class="buy-button__svg-icon">-->
+<!--                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>-->
+<!--                                </svg>-->
+<!--                                <span class="buy-button__text">+</span>-->
+<!--                            </button>-->
+<!--                            <p class="buy-container__price">320.00 р.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-6 col-lg-4">-->
+<!--                <div class="card">-->
+<!--                    <img src="../../img/catalog.png" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Филадельфия Антинори</h5>-->
+<!--                        <p class="card-text">300 гр / 9 шт.</p>-->
+<!--                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,-->
+<!--                            Роллы обжаренные во фритюре</small></p>-->
+<!--                        <div class="buy-container">-->
+<!--                            <button class="buy-button" type="submit">-->
+<!--                                <svg class="buy-button__svg-icon">-->
+<!--                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>-->
+<!--                                </svg>-->
+<!--                                <span class="buy-button__text">+</span>-->
+<!--                            </button>-->
+<!--                            <p class="buy-container__price">320.00 р.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <img src="../../img/catalog.png" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Филадельфия Антинори</h5>-->
+<!--                        <p class="card-text">300 гр / 9 шт.</p>-->
+<!--                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,-->
+<!--                            Роллы обжаренные во фритюре</small></p>-->
+<!--                        <div class="buy-container">-->
+<!--                            <button class="buy-button" type="submit">-->
+<!--                                <svg class="buy-button__svg-icon">-->
+<!--                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>-->
+<!--                                </svg>-->
+<!--                                <span class="buy-button__text">+</span>-->
+<!--                            </button>-->
+<!--                            <p class="buy-container__price">320.00 р.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <img src="../../img/catalog.png" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Филадельфия Антинори</h5>-->
+<!--                        <p class="card-text">300 гр / 9 шт.</p>-->
+<!--                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,-->
+<!--                            Роллы обжаренные во фритюре</small></p>-->
+<!--                        <div class="buy-container">-->
+<!--                            <button class="buy-button" type="submit">-->
+<!--                                <svg class="buy-button__svg-icon">-->
+<!--                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>-->
+<!--                                </svg>-->
+<!--                                <span class="buy-button__text">+</span>-->
+<!--                            </button>-->
+<!--                            <p class="buy-container__price">320.00 р.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-6 col-lg-4">-->
+<!--                <div class="card">-->
+<!--                    <img src="../../img/catalog.png" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Филадельфия Антинори</h5>-->
+<!--                        <p class="card-text">300 гр / 9 шт.</p>-->
+<!--                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,-->
+<!--                            Роллы обжаренные во фритюре</small></p>-->
+<!--                        <div class="buy-container">-->
+<!--                            <button class="buy-button" type="submit">-->
+<!--                                <svg class="buy-button__svg-icon">-->
+<!--                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>-->
+<!--                                </svg>-->
+<!--                                <span class="buy-button__text">+</span>-->
+<!--                            </button>-->
+<!--                            <p class="buy-container__price">320.00 р.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <img src="../../img/catalog.png" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Филадельфия Антинори</h5>-->
+<!--                        <p class="card-text">300 гр / 9 шт.</p>-->
+<!--                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,-->
+<!--                            Роллы обжаренные во фритюре</small></p>-->
+<!--                        <div class="buy-container">-->
+<!--                            <button class="buy-button" type="submit">-->
+<!--                                <svg class="buy-button__svg-icon">-->
+<!--                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>-->
+<!--                                </svg>-->
+<!--                                <span class="buy-button__text">+</span>-->
+<!--                            </button>-->
+<!--                            <p class="buy-container__price">320.00 р.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <img src="../../img/catalog.png" class="card-img-top" alt="...">-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Филадельфия Антинори</h5>-->
+<!--                        <p class="card-text">300 гр / 9 шт.</p>-->
+<!--                        <p class="card-text"><small class="text-muted">Буррито Темпура, Темпура Лосось, Темпура Бекон,-->
+<!--                            Роллы обжаренные во фритюре</small></p>-->
+<!--                        <div class="buy-container">-->
+<!--                            <button class="buy-button" type="submit">-->
+<!--                                <svg class="buy-button__svg-icon">-->
+<!--                                    <use xlink:href="../../img/svg-sprites.svg#basket"></use>-->
+<!--                                </svg>-->
+<!--                                <span class="buy-button__text">+</span>-->
+<!--                            </button>-->
+<!--                            <p class="buy-container__price">320.00 р.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
     </div>
 
