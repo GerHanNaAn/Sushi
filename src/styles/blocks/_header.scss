@@ -1,145 +1,241 @@
 .header {
 
-  .navbar {
-    padding: 4.5px 1px;
-    border-bottom: rgba(34, 34, 34, 0.125) 1px solid;
+  .header-box {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    min-height: 98px;
+    display: flex;
+    align-items: center;
+    z-index: 20;
+    background: #FFFFFF;
+    border-bottom: 1px solid #9C9C9C;
+    box-shadow: 0px 1.34307px 6.71533px rgba(0, 0, 0, 0.13);
   }
 
-  .container {
-    max-width: 1920px;
+  .header-logo {
+    width: 150px;
+    height: 77px;
+    margin: 9px auto 9px 96px;
+  }
+
+  .contacts__item {
+    display: block;
+  }
+
+  .navigation {
+    list-style-type: none;
+    display: flex;
     padding: 0;
-  }
 
-  .navbar-brand {
-    margin-left: 92px;
-  }
+    &_margin-right {
+      margin-right: 285px;
+    }
 
-  .navbar-collapse {
-    .nav-link {
+    &__item {
+      &:not(:last-child) {
+        margin-right: 80px;
+      }
+
+    }
+
+    &__ref {
+      color: #222222;
       font-weight: bold;
       font-size: 20px;
-      color: black;
+      text-decoration: none;
     }
-
-    .dropdown-menu {
-      width: 182px;
-      height: 285px;
-      padding-top: 4px;
-      padding-bottom: 12px;
-      border: 0;
-      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.13);
-      border-radius: 6px;
-
-      .dropdown-item {
-        padding: 0 20px;
-
-        &:hover {
-          background: #FF1744;
-        }
-
-        .dropdown-item__text {
-
-          &:hover {
-            color: #FFFFFF;
-            border-bottom: 0.6px solid transparent;
-          }
-
-          margin: 0;
-          padding-bottom: 7px;
-          padding-top: 15px;
-          font-size: 14px;
-          color: black;
-          border-bottom: 0.6px solid #E1E1E1;
-          //////////////////Ты остановился тут. Доделай меню.
-          // /////////////Отступы между элементами меню сделай через медиа-запросы для разрешения 1920px
-
-          &_bold {
-            font-weight: bold;
-          }
-
-          &_unbordered {
-            border-bottom: 0.6px solid transparent;
-          }
-        }
-
-      }
-    }
-
   }
 
   .contacts {
-    margin-right: 42px;
-
-    &__number {
-      font-weight: bold;
-      font-size: 16px;
-      color: #222222;
+    &_margin-right {
+      margin-right: 37px;
     }
 
-    &__time {
-      font-weight: bold;
+    &__item {
       font-size: 16px;
+      font-weight: bold;
+    }
+
+    &__work-time {
       color: #9C9C9C;
-      margin-bottom: -7px;
+      margin-top: 10px;
     }
   }
 
   .purchases {
-    height: 50px;
-    border: 1px solid #E1E1E1;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-right: 101px;
-    padding-left: 38px;
-    display: inline-block;
-    color: #222222;
-    font-style: normal;
+    text-decoration: none;
+    position: relative;
     font-weight: bold;
     font-size: 20px;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 188px;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 32px;
+    margin-right: 96px;
+
+    &__black {
+      color: #222222;
+    }
 
     &__quantity {
-      color: white;
-      height: 58px;
-      width: 58px;
+      position: absolute;
+      color: #FFFFFF;
       background: #FF1744;
-      text-align: center;
-      line-height: 58px;
+      width: 58px;
+      height: 58px;
       border-radius: 50%;
-      display: inline-block;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 20px;
-      margin-top: -5px;
-      position: relative;
-      left: 13px;
+      line-height: 58px;
+      text-align: center;
+      bottom: -7px;
+      left: 134px;
     }
   }
 
-  //@media
-  @media (max-width: 1694px) and (min-width: 1371px) {
-    .nav-item {
-      margin-right: 64px;
+
+  //
+  //.navbar {
+  //  padding: 4.5px 1px;
+  //  border-bottom: rgba(34, 34, 34, 0.125) 1px solid;
+  //}
+  //
+  //.container {
+  //  max-width: 1920px;
+  //  padding: 0;
+  //}
+  //
+  //.navbar-brand {
+  //  margin-left: 92px;
+  //}
+  //
+  //.navbar-collapse {
+  //  .nav-link {
+  //    font-weight: bold;
+  //    font-size: 20px;
+  //    color: black;
+  //  }
+
+  .dropdown-menu {
+    width: 182px;
+    height: 285px;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    border: 0;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.13);
+    border-radius: 6px;
+
+    .dropdown-item {
+      padding: 0 20px;
+
+      &:hover {
+        background: #FF1744;
+      }
+
+      &__text {
+        margin: 0;
+        padding-bottom: 7px;
+        padding-top: 15px;
+        font-size: 14px;
+        color: black;
+        border-bottom: 0.6px solid #E1E1E1;
+        //////////////////Ты остановился тут. Доделай меню.
+        // /////////////Отступы между элементами меню сделай через медиа-запросы для разрешения 1920px
+
+        &:hover {
+          color: #FFFFFF;
+          border-bottom: 0.6px solid transparent;
+        }
+
+        &_bold {
+          font-weight: bold;
+        }
+
+        &_unbordered {
+          border-bottom: 0.6px solid transparent;
+        }
+      }
+
     }
   }
 
-  @media (max-width: 1940px) and (min-width: 1695px) {
+  //}
 
-    .navbar-brand {
-      margin-right: 0;
-    }
-
-    .navbar-nav {
-      margin-left: 339px !important;
-    }
-
-    .nav-item {
-      margin-right: 64px;
-    }
-  }
-  //@media (max-width: 1921px) {
-  //  .container {
-  //    max-width: 1920px;
+  //.contacts {
+  //  margin-right: 42px;
+  //
+  //  &__number {
+  //    font-weight: bold;
+  //    font-size: 16px;
+  //    color: #222222;
+  //  }
+  //
+  //  &__time {
+  //    font-weight: bold;
+  //    font-size: 16px;
+  //    color: #9C9C9C;
+  //    margin-bottom: -7px;
   //  }
   //}
+  //
+  //.purchases {
+  //  height: 50px;
+  //  border: 1px solid #E1E1E1;
+  //  border-radius: 10px;
+  //  box-sizing: border-box;
+  //  margin-right: 101px;
+  //  padding-left: 38px;
+  //  display: inline-block;
+  //  color: #222222;
+  //  font-style: normal;
+  //  font-weight: bold;
+  //  font-size: 20px;
+  //
+  //  &__quantity {
+  //    color: white;
+  //    height: 58px;
+  //    width: 58px;
+  //    background: #FF1744;
+  //    text-align: center;
+  //    line-height: 58px;
+  //    border-radius: 50%;
+  //    display: inline-block;
+  //    font-style: normal;
+  //    font-weight: bold;
+  //    font-size: 20px;
+  //    margin-top: -5px;
+  //    position: relative;
+  //    left: 13px;
+  //  }
+  //}
+  //
+  ////@media
+  //@media (max-width: 1694px) and (min-width: 1371px) {
+  //  .nav-item {
+  //    margin-right: 64px;
+  //  }
+  //}
+  //
+  //@media (max-width: 1940px) and (min-width: 1695px) {
+  //
+  //  .navbar-brand {
+  //    margin-right: 0;
+  //  }
+  //
+  //  .navbar-nav {
+  //    margin-left: 339px !important;
+  //  }
+  //
+  //  .nav-item {
+  //    margin-right: 64px;
+  //  }
+  //}
+  ////@media (max-width: 1921px) {
+  ////  .container {
+  ////    max-width: 1920px;
+  ////  }
+  ////}
 
 }

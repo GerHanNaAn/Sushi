@@ -1,62 +1,45 @@
-<section class="header" id="header">
-    <header>
-        <nav class="navbar fixed-top navbar-expand-xl navbar-white bg-white">
-            <div class="container">
-
-                <a class="navbar-brand" href="#"><img src="../../img/logoHead.svg" alt=""></a>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdown" role="button"
-                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Меню <img src="../../img/menu-down-arrow.svg" alt="">
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">
-                                    <p class="dropdown-item__text dropdown-item__text_bold">Все меню</p>
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    <p class="dropdown-item__text">Запеченные роллы</p>
-                                </a>
-                                <a class="dropdown-item" href="#"><p class="dropdown-item__text">Роллы</p></a>
-                                <a class="dropdown-item" href="#"><p class="dropdown-item__text">Темпура</p></a>
-                                <a class="dropdown-item" href="#"><p class="dropdown-item__text">Сеты</p></a>
-                                <a class="dropdown-item" href="#">
-                                    <p class="dropdown-item__text dropdown-item__text_unbordered">Пицца</p>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Акции</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Доставка</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Отзывы</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="contacts">
-                    <p class="contacts__number">8 (351) 238-22-00
-                        <br>
-                    <p class="contacts__time">с 11:00 до 23:00</p>
-                </div>
-
-                <a href="#" class="purchases">500.00 р.
-                    <div class="purchases__quantity">2</div>
-                </a>
-            </div>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span style="color: red" class="navbar-toggler-icon bg-dark"></span>
-            </button>
-
-            </div>
+<header class="header" id="header">
+    <div class="header-box">
+        <a class="logo header-logo" href="#"><img src="../../img/logoHead.svg" alt=""></a>
+        <nav>
+            <ul class="navigation navigation_margin-right">
+                <li class="navigation__item"><a class="navigation__ref" href="#" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Меню
+                    <img src="../../img/menu-down-arrow.svg" alt="down-Arrow"></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">
+                            <div class="dropdown-item__text">Все меню</div>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <div class="dropdown-item__text">Запеченные роллы</div>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <div class="dropdown-item__text">Роллы</div>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <div class="dropdown-item__text">Темпура</div>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <div class="dropdown-item__text">Сеты</div>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <div class="dropdown-item__text dropdown-item__text_unbordered">Пицца</div>
+                        </a>
+                    </div>
+                </li>
+                <li class="navigation__item"><a class="navigation__ref" href="#">Акции</a></li>
+                <li class="navigation__item"><a class="navigation__ref" href="#">Доставка</a></li>
+                <li class="navigation__item"><a class="navigation__ref" href="#">Отзывы</a></li>
+            </ul>
         </nav>
-    </header>
-</section>
+
+        <div class="contacts contacts_margin-right">
+            <span class="contacts__item contacts__number">8 (351) 238-22-00</span>
+            <span class="contacts__item contacts__work-time">с 11:00 до 23:00</span>
+        </div>
+
+        <a href="#" class="purchases purchases__black">500.00 р.
+            <div class="purchases__quantity">2</div>
+        </a>
+    </div>
+</header>
