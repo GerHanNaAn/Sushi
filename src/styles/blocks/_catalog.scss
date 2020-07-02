@@ -1,16 +1,4 @@
 .catalog {
-  .card-box {
-    //margin: 0 0 16px 0;
-    //padding: 0;
-
-  }
-
-  .chat {
-    position: fixed;
-    right: 20px;
-    bottom: 100px;
-    z-index: 2;
-  }
 
   .catalog__title {
     font-weight: 600;
@@ -19,7 +7,6 @@
   }
 
   .card {
-    //margin-bottom: 16px;
     margin: 0 0 16px 0;
 
     .card-title {
