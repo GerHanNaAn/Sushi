@@ -6,6 +6,9 @@
   border-bottom: 1px solid #9C9C9C;
   box-shadow: 0px 1.34307px 6.71533px rgba(0, 0, 0, 0.13);
   background: #FFFFFF;
+  &__link {
+    color: red;
+  }
 
   .chat {
     position: fixed;
@@ -14,24 +17,19 @@
     z-index: 2;
   }
 
-  .header-box {
+  &-box {
     max-width: 1920px;
-    margin: 0 auto;
+    margin: 30px;
     min-height: 98px;
     display: flex;
     align-items: center;
   }
 
-  .header-logo {
+  &-logo {
     width: 150px;
     height: 77px;
     margin: 9px auto 9px 96px;
   }
-
-  .contacts__item {
-    display: block;
-  }
-
   .navigation {
     list-style-type: none;
     display: flex;
@@ -57,50 +55,15 @@
   }
 
   .contacts {
-    &_margin-right {
-      margin-right: 37px;
-    }
-
+    margin-right: 37px;
     &__item {
+      display: block;
       font-size: 16px;
-      font-weight: bold;
-    }
-
-    &__work-time {
-      color: #9C9C9C;
-      margin-top: 10px;
-    }
-  }
-
-  .purchases {
-    text-decoration: none;
-    position: relative;
-    font-weight: bold;
-    font-size: 20px;
-    border: 1px solid #E1E1E1;
-    box-sizing: border-box;
-    border-radius: 10px;
-    width: 188px;
-    height: 48px;
-    line-height: 48px;
-    padding-left: 32px;
-    margin-right: 96px;
-
-    &__black {
-      color: #222222;
-    }
-
-    &__quantity {
-      position: absolute;
-      color: #FFFFFF;
-      background: #FF1744;
-      width: 58px;
-      height: 58px;
-      border-radius: 50%;
-      line-height: 58px;
-      text-align: center;
-      bottom: -7px;
-      left: 134px;
+      font-weight: 700;
+      &:last-child {
+        margin-top: 10px;
+        color: #9C9C9C;
+      }
     }
   }
 

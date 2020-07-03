@@ -1,0 +1,22 @@
+.x2 {
+  .container-x2 {
+    background: url("../../../img/stocks_page/1136x427.png");
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .paragraphs {
+    color: #505050;
+
+    &__items {
+      color: #FF1744;
+    }
+
+  }
+
+
+}
