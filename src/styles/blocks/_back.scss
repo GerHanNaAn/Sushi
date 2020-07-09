@@ -9,30 +9,23 @@
     text-decoration: none;
     border: 1px solid transparent;
     border-radius: 10px;
+
     &:hover {
       border: 1px solid #FF1744;
-
-      .back-btn__img {
-        color: #FF1744;
-      }
     }
 
-    &__img {
-      &:hover {
-        fill: #FF1744;
-      }
+    &:hover .back-btn__text,
+    &:hover #arrow-back {
+      color: #FF1744;
+      fill: #FF1744;
     }
 
     &__text {
-      &:hover {
-        color: #FF1744;
-      }
       font-weight: bold;
       color: #9C9C9C;
       margin: auto 0 auto 15px;
     }
 
   }
-
 
 }
